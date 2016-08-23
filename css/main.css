@@ -4,22 +4,20 @@
 	padding: 0;
 }
 
+body {
+	background-color: #EBEBEB;
+}
+
 nav {
 	height: 100px;
-	background-color: #EBEBEB;
-	position: relative;
 }
 
 hr {
-	position: absolute;
-	bottom: 0;
 	display: block;
 	border: 0;
 	border-bottom: 4px solid #AAAAAA;
 	width: 96%;
-	left: 2%;
-	background: #EBEBEB; 
-	color: #EBEBEB;
+	margin: 0 auto;
 	border-radius: 2px;
 }
 
@@ -51,7 +49,126 @@ nav ul {
  	text-transform: uppercase;
  }
 
- .welcome h1, h2 {
- 	text-align: center;
- 	background-color: #EBEBEB; 
+ .welcome h1, p {
+ 	text-align: center; 
+ 	margin: 3% auto;
+ 	width: 80%;
  }
+
+ .welcome h1{
+ 	font-family: 'Josefin Slab', serif;
+ 	font-size: 36px;
+ }
+
+.welcome p {
+	font-family: 'Raleway', sans-serif;
+}
+
+ .welcome img {
+	display: block;
+	border-radius: 5px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	margin: 3% 2%;
+}
+
+.info {
+	margin: 3% 2%;
+	white-space: nowrap;
+}
+
+.myWork, .aboutMe {
+	width: 46%;
+	display: inline-block;
+	white-space: normal;
+	margin: 0 2%;
+	vertical-align: top;
+}
+
+.portfolio {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.portfolio div {
+	width: 150px;
+	overflow: hidden;
+	margin: 1%;
+	border:none;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.portfolio div img {
+	height: 125px;
+}
+
+.portfolio div h1 {
+	font-family: 'Josefin Slab', serif;
+}
+
+.portfolio div h3 {
+	
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.contact {
+	background-color: #2D2D2D;
+	position: relative;
+}
+
+form {
+	margin-left: 20px;
+	width: 65%;
+	display: inline-block;
+	position: relative;
+}
+
+.contact h2 {
+	text-align: left;
+	margin: 20px 0;
+}
+
+form input {
+	display:block;
+	margin: 0 0 20px 0;
+	width: 40%;
+}
+
+form textarea {
+	width: 40%;
+}
+
+form button {
+	display: block;
+	margin: 2% 0 3%;
+}
+
+.socialIcons {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	height: 30px;
+	margin-top: -15px;
+	right: 5%;
+
+}
+
+.fa {
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	background-color: #D76F81;
+	border-radius:50%;
+	padding-top: 7px;
+	margin-right: 10px;
+}
