@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	height: 100px;
+	background-color: #EBEBEB;
+	position: relative;
+}
+
+hr {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	border: 0;
+	border-bottom: 4px solid #AAAAAA;
+	width: 96%;
+	left: 2%;
+	background: #EBEBEB; 
+	color: #EBEBEB;
+	border-radius: 2px;
+}
+
+.brand {
+	margin: 30px 35px 0 90px;
+	color: #68574C;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+}
+
+nav ul {
+	float: right;
+	margin: 30px 34px 0 0;
+}
+
+ nav li {
+ 	display: inline-block;
+ 	margin: 0 14px;
+ }
+
+ nav a {
+ 	text-decoration: none;
+ 	color: #68574C;
+ 	font-size: 14px;
+ 	text-transform: uppercase;
+ }
+
+ .welcome h1, h2 {
+ 	text-align: center;
+ 	background-color: #EBEBEB; 
+ }
