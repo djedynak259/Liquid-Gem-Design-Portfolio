@@ -59,6 +59,21 @@ nav ul {
  	text-transform: uppercase;
  }
 
+ @media (max-width: 550px) {
+ 	nav {
+ 		height: auto;
+ 		min-height: 90px;
+ 		text-align: center;
+ 	}
+ 	.brand {
+ 		margin: 5% auto;
+ 	}
+ 	nav ul {
+ 		float: none;
+ 		margin: 0 0 10px;
+ 	}
+ }
+
  .welcome h1, p {
  	text-align: center; 
  	margin: 3% auto 2%;
@@ -83,6 +98,13 @@ nav ul {
 	border-radius: 5px;
 	width: 90%;
 	margin: 0 auto;
+}
+
+@media (max-width: 550px) {
+	.welcome h1 {
+		line-height: 27px;
+		width: 90%;
+	}
 }
 
 .info {
@@ -135,6 +157,12 @@ nav ul {
 	letter-spacing: 0px;
 	font-size: .7em;
 	color: #D76F81;
+}
+
+@media (max-width: 546px) {
+	.portfolio {
+		justify-content: space-around;
+	}
 }
 
 .contact {
